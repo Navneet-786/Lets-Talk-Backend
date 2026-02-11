@@ -1,4 +1,4 @@
-require("dotenv/config");
+require("dotenv").config({});
 const { app, server } = require("./socket/socket.js");
 const express = require("express");
 const { connectDB } = require("./db/connection1.db.js");
